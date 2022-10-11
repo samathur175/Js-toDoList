@@ -50,8 +50,8 @@ body {
   padding: 5px 5px 5px 5px;
   border-style: ridge;
   border-color: black;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -69,6 +69,16 @@ body {
 .edit-btn {
   height: 2rem;
   width: 3rem;
+  border-radius: 5px;
+  box-shadow: gray 2px 2px;
+  font-size: 1rem;
+  background-color: lightblue;
+  background-image: linear-gradient(to right, #dd5353, #ff884b);
+}
+.save-btn {
+  margin-left: 5px;
+  height: 2rem;
+  width: 3.8rem;
   border-radius: 5px;
   box-shadow: gray 2px 2px;
   font-size: 1rem;

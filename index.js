@@ -20,12 +20,7 @@ addBtnEl.addEventListener("click", (event) => {
     editBtnEl.innerHTML = `Edit`;
 
     editBtnEl.addEventListener("click", () => {
-      if ((editBtnEl.innerHTML = "Edit")) {
-        newTaskEl.removeAttribute("readonly");
-        editBtnEl.innerHTML = `Save`;
-      } else {
-        newTaskEl.setAttribute("readonly", true);
-      }
+      newTaskEl.removeAttribute("readonly");
     });
 
     let delBtnEl = document.createElement("button");
@@ -38,6 +33,7 @@ addBtnEl.addEventListener("click", (event) => {
 
     newTaskDiv.appendChild(newTaskEl);
     newTaskDiv.appendChild(editBtnEl);
+
     newTaskDiv.appendChild(delBtnEl);
     document.body.appendChild(newTaskDiv);
   }

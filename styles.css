@@ -1,0 +1,93 @@
+body {
+  background-color: #bccef8;
+}
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: dimgray;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+.main-div {
+  background-color: #628e90;
+  text-align: center;
+  position: relative;
+  padding: 5px 5px 5px 5px;
+  border-style: ridge;
+  border-color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.input-field {
+  width: 17rem;
+  margin-right: 15px;
+  height: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  background-color: #ededed;
+}
+.add-btn {
+  height: 2rem;
+  width: 3.8rem;
+  border-radius: 5px;
+  box-shadow: gray 2px 2px;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to left, #47b5ff, #002e94);
+}
+.add-btn:hover {
+  opacity: 80%;
+}
+.task-div {
+  background-color: #628e90;
+  text-align: center;
+  position: relative;
+  padding: 5px 5px 5px 5px;
+  border-style: ridge;
+  border-color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.task-el {
+  background-color: #ededed;
+  width: 14.5rem;
+  margin-right: 15px;
+  height: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.edit-btn {
+  height: 2rem;
+  width: 3rem;
+  border-radius: 5px;
+  box-shadow: gray 2px 2px;
+  font-size: 1rem;
+  background-color: lightblue;
+  background-image: linear-gradient(to right, #dd5353, #ff884b);
+}
+.edit-btn:hover {
+  opacity: 80%;
+}
+.delete-btn {
+  margin-left: 5px;
+  height: 2rem;
+  width: 3.8rem;
+  border-radius: 5px;
+  box-shadow: gray 2px 2px;
+  font-size: 1rem;
+  background-color: lightblue;
+  background-image: linear-gradient(to right, #dd5353, #ff884b);
+}
+.delete-btn:hover {
+  opacity: 80%;
+}

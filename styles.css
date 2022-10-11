@@ -55,7 +55,7 @@ body {
   border-radius: 5px;
   margin-bottom: 20px;
 }
-.task-el {
+.new-task-el {
   background-color: #ededed;
   width: 14.5rem;
   margin-right: 15px;
@@ -78,7 +78,7 @@ body {
 .edit-btn:hover {
   opacity: 80%;
 }
-.delete-btn {
+.del-btn {
   margin-left: 5px;
   height: 2rem;
   width: 3.8rem;
@@ -88,6 +88,6 @@ body {
   background-color: lightblue;
   background-image: linear-gradient(to right, #dd5353, #ff884b);
 }
-.delete-btn:hover {
+.del-btn:hover {
   opacity: 80%;
 }

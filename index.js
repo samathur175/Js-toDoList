@@ -5,7 +5,20 @@ addBtnEl.addEventListener("click", (event) => {
   event.preventDefault();
 
   if (inputTaskEl.value === "") {
-    alert("Add Your Task First");
+    let alertEl = document.createElement("div");
+    alertEl.classList.add("alert-box");
+    alertEl.innerHTML = `Please Enter Your Task First`;
+
+    let alertCloseEl = document.createElement("button");
+    alertCloseEl.classList.add("alert-close-btn");
+    alertCloseEl.innerHTML = `Close`;
+
+    alertEl.appendChild(alertCloseEl);
+    document.body.appendChild(alertEl);
+
+    alertCloseEl.addEventListener("click", () => [
+      document.body.removeChild(alertEl),
+    ]);
   } else {
     let newTaskDiv = document.createElement("div");
     newTaskDiv.classList.add("task-div");
@@ -33,7 +46,6 @@ addBtnEl.addEventListener("click", (event) => {
 
     newTaskDiv.appendChild(newTaskEl);
     newTaskDiv.appendChild(editBtnEl);
-
     newTaskDiv.appendChild(delBtnEl);
     document.body.appendChild(newTaskDiv);
   }
